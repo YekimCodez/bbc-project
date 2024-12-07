@@ -1,0 +1,64 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg-red: rgb(255, 0, 0);
+}
+
+html {
+  color-scheme: dark light;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+}
+
+/* flex container or parent container */
+.container {
+  width: 100%;
+  margin: 0 auto;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.letter-container {
+  display: flex;
+  padding: 2em;
+}
+
+.letter-box {
+  width: 100px;
+  height: 100px;
+  background: var(--bg-red);
+  padding: 1em;
+  margin: 0.5em;
+  /* declare flex container */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.letter {
+  font-size: 4rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.subject {
+  text-transform: uppercase;
+}
+
+p {
+  text-transform: capitalize;
+  font-size: 1.5rem;
+}/*# sourceMappingURL=main.css.map */

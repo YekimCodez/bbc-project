@@ -1,0 +1,15 @@
+{
+  "name": "bbc-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "sass src/scss/main.scss dist/css/styles.css --style compressed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "sass": "^1.82.0"
+  }
+}
