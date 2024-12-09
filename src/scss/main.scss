@@ -1,24 +1,5 @@
-*, *::after, *::before {
-    box-sizing: border-box;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-:root {
-    --bg-red: rgb(255, 0, 0);
-}
-
-html {
-    color-scheme: dark light;
-    font-family: 'Roboto', sans-serif;
-}
-
-body {
-    min-height: 100vh;
-}
+@import './resets';
+@import './variables';
 
 /* flex container or parent container */
 .container {
