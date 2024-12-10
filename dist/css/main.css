@@ -55,7 +55,13 @@ body {
   margin-top: 1.5rem;
   border: none;
   border-radius: 0.2rem;
-  background-color: hsl(176, 74%, 95%);
-  color: hsl(191, 69%, 13%);
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 20%);
   cursor: pointer;
+  font-size: 1rem;
+  transition: 1s ease all;
+}
+.container #link-btn:hover {
+  background-color: hsl(0, 0%, 20%);
+  color: hsl(0, 0%, 95%);
 }/*# sourceMappingURL=main.css.map */

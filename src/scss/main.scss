@@ -20,7 +20,7 @@
         .letter-box {
             width: 100px;
             height: 100px;
-            background: $bbc-bg-red;
+            background: $color-bbc-red;
             padding: 1em;
             margin: 0.5em;
         
@@ -52,9 +52,16 @@
         margin-top: 1.5rem;
         border: none;
         border-radius: 0.2rem;
-        background-color: $btn-bg-lite;
-        color: hsl(191, 69%, 13%);
+        background-color: $color-btn-lite;
+        color: $color-btn-dark;
         cursor: pointer;
+        font-size: $font-size-small;
+        transition: 1s ease all;
+
+        &:hover {
+            background-color: $color-btn-dark;
+            color: $color-btn-lite;
+        }
     }
 }
 
