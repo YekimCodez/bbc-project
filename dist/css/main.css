@@ -23,16 +23,14 @@ body {
   align-items: center;
   flex-direction: column;
 }
-
-.letter-container {
+.container .letter-container {
   display: flex;
   padding: 2em;
 }
-
-.letter-box {
+.container .letter-container .letter-box {
   width: 100px;
   height: 100px;
-  background: var(--bg-red);
+  background: hsl(0, 100%, 50%);
   padding: 1em;
   margin: 0.5em;
   /* declare flex container */
@@ -40,18 +38,24 @@ body {
   align-items: center;
   justify-content: center;
 }
-
-.letter {
+.container .letter-container .letter-box .letter {
   font-size: 4rem;
   font-weight: 900;
   text-transform: uppercase;
 }
-
-.subject {
+.container .subject {
   text-transform: uppercase;
 }
-
-p {
+.container p {
   text-transform: capitalize;
   font-size: 1.5rem;
+}
+.container #link-btn {
+  padding: 0.5rem 1.5rem;
+  margin-top: 1.5rem;
+  border: none;
+  border-radius: 0.2rem;
+  background-color: hsl(176, 74%, 95%);
+  color: hsl(191, 69%, 13%);
+  cursor: pointer;
 }/*# sourceMappingURL=main.css.map */
